@@ -14,7 +14,6 @@ dependencies {
     provided 'com.facebook.react:react-native:+'
     compile 'com.google.android.gms:play-services-base:+'
     compile 'com.google.android.gms:play-services-maps:+'
-    compile 'com.android.support:support-compat:+'
     compile 'com.android.support:support-core-utils:+'
     compile 'com.android.support:support-core-ui:+'
     compile 'com.android.support:support-fragment:+'
