@@ -16,10 +16,10 @@ android {
 
 dependencies {
     compileOnly 'com.facebook.react:react-native:+'
-    compile "com.google.android.gms:play-services-base:${safeExtGet('playServicesVersion', '16.1.0')}"
-    compile "com.google.android.gms:play-services-maps:${safeExtGet('playServicesVersion', '16.1.0')}"
-    compile 'com.android.support:support-compat:+'
-    compile 'com.android.support:support-core-utils:+'
-    compile 'com.android.support:support-core-ui:+'
-    compile 'com.android.support:support-fragment:+'
+    implementation "com.google.android.gms:play-services-base:${safeExtGet('playServicesVersion', '16.1.0')}"
+    implementation "com.google.android.gms:play-services-maps:${safeExtGet('playServicesVersion', '16.1.0')}"
+    implementation 'com.android.support:support-compat:+'
+    implementation 'com.android.support:support-core-utils:+'
+    implementation 'com.android.support:support-core-ui:+'
+    implementation 'com.android.support:support-fragment:+'
 }
